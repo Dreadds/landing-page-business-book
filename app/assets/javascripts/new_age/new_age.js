@@ -12,7 +12,7 @@
 
     // Highlight the top nav as scrolling occurs
     $('body').scrollspy({
-        target: '.navbar-fixed-top',
+        target: '#mainNav',
         offset: 100
     });
 
@@ -26,6 +26,7 @@
         offset: {
             top: 50
         }
-    })
+    });
+    
 
 })(jQuery); // End of use strict
